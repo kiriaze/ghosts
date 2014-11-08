@@ -26,7 +26,7 @@ pretty_print "Enter your project path. e.g. path/to/project"
 
 
 pretty_print "Adding ${project} to hosts file"
-  sudo sh -c 'echo "127.0.0.1 '$project'\n" >> /etc/hosts'
+  sudo sh -c 'echo "127.0.0.1 '$project'" >> /etc/hosts'
 
 
 pretty_print "Adding ${project} path to httpd-vhosts file"
@@ -53,8 +53,7 @@ esac
 # Restart Apache and done
 ###############################################################################
 
-echo ""
 pretty_print "Restarting Apache yo."
   sudo apachectl restart
-echo ""
+
 pretty_print "Shits Done Bro! Coming soon: ghost add project.dev path/to/project true"
