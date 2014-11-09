@@ -1,5 +1,6 @@
-ghost
+ghosts
 =====
+
 
 Does 3 things, sometimes 4.
 
