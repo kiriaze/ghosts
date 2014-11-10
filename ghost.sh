@@ -52,7 +52,7 @@ pretty_print "$COL_BLUE Adding ${project} path to httpd-vhosts file $COL_RESET"
 " >> /etc/apache2/extra/httpd-vhosts.conf'
 
 
-pretty_print "$COL_GREEN Would you like to create project directory at path? (y/n) $COL_RESET"
+echo "$COL_GREEN Would you like to create project directory at path? (y/n) $COL_RESET"
 read -r response
 case $response in
   [yY])
