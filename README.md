@@ -9,7 +9,7 @@ Does 3 things, sometimes 4.
 3. Creates directory for you project. (Optional)
 4. Restarts Apache.
 
-`curl -s https://raw.githubusercontent.com/kiriaze/ghost/master/ghost.sh > /tmp; bash /tmp/ghost`
+`curl -s https://raw.githubusercontent.com/kiriaze/ghost/master/ghost.sh | bash`
 
 Or download it and place it with your other scripts, and run it `sh path/to/ghost.sh`
 
