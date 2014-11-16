@@ -54,15 +54,10 @@ pretty_print "$COL_BLUE Adding ${project} path to httpd-vhosts file $COL_RESET"
 
 pretty_print "$COL_GREEN Would you like to create project directory at path? (y/n) $COL_RESET"
 read -r response
-case $response in
-  [yY])
-      while true
-      do
-    	  pretty_print "$COL_GREEN Creating project directory at path $COL_RESET"
-	      sudo mkdir $path          
-      done
-  *)
-esac
+if [[ $response = y ]] ; then
+  pretty_print "$COL_GREEN Creating project directory at path $COL_RESET"
+  sudo mkdir $path
+fi
 
 
 ###############################################################################
