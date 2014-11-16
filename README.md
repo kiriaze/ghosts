@@ -9,8 +9,8 @@ Does 3 things, sometimes 4.
 3. Creates directory for you project. (Optional)
 4. Restarts Apache.
 
-`bash <(curl -s https://raw.githubusercontent.com/kiriaze/ghost/master/ghost.sh)`
+`bash <(curl -s https://raw.githubusercontent.com/kiriaze/ghost/master/ghosts.sh)`
 
-Or download it and place it with your other scripts, and run it `sh path/to/ghost.sh`
+Or download it and place it with your other scripts, and run it `sh path/to/ghosts.sh`
 
 And follow the inline instructions through CLI!
