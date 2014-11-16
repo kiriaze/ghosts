@@ -61,8 +61,7 @@ case $response in
     	  pretty_print "$COL_GREEN Creating project directory at path $COL_RESET"
 	      sudo mkdir $path          
       done
-      
-  *) break;;
+  *)
 esac
 
 
