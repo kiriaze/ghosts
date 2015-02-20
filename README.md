@@ -12,6 +12,7 @@ Does 3 things, sometimes 4.
 `bash <(curl -s https://raw.githubusercontent.com/kiriaze/ghost/master/ghosts.sh)`
 
 Preferred method would be to:
+
 1. Download it and place it with your other scripts, e.g. /Users/{username}/Documents/ghosts.sh
 2. Make it executable `chmod u+x ghosts.sh`
 3. Create an alias: `nano .bash_profile`
