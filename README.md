@@ -13,10 +13,11 @@ Does 3 things, sometimes 4.
 
 Preferred method would be to:
 
-1. Download it and place it with your other scripts, e.g. /Users/{username}/Documents/ghosts.sh
+1. Download it and place it with your other scripts, e.g. /Users/{username}/Documents/Scripts/ghosts.sh
 2. Make it executable `chmod u+x ghosts.sh`
 3. Create an alias: `nano .bash_profile`
-4. Add `alias {path/to/ghosts.sh}='ghosts'`
-5. Run it: `ghosts`
+4. Add `alias ghosts="/Users/kiriaze/Documents/scripts/ghosts.sh"`
+5. Apply changes to bash file: `source ~/.bash_profile`
+6. Run it: `ghosts`
 
-And follow the inline instructions through CLI!
+And follow the inline instructions through the CLI!
