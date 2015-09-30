@@ -9,14 +9,15 @@ Does 3 things, sometimes 4.
 3. Creates directory for you project. (Optional)
 4. Restarts Apache.
 
+Run this from anywhere:
 `bash <(curl -s https://raw.githubusercontent.com/kiriaze/ghost/master/ghosts.sh)`
 
 Preferred method would be to:
 
-1. Download it and place it with your other scripts, e.g. /Users/{username}/Documents/Scripts/ghosts.sh
+1. Download it and place it with your other scripts, e.g. /Users/{username}/Documents/Scripts/ghosts.sh or `cd /Users/$(whoami)/Scripts/ghosts.sh` and run `curl -O https://raw.githubusercontent.com/kiriaze/ghost/master/ghosts.sh` to save it there.
 2. Make it executable `chmod u+x ghosts.sh`
 3. Create an alias: `nano .bash_profile`
-4. Add `alias ghosts="/Users/kiriaze/Documents/scripts/ghosts.sh"`
+4. Add `alias ghosts="/Users/$(whoami)/Scripts/ghosts.sh"`
 5. Apply changes to bash file: `source ~/.bash_profile`
 6. Run it: `ghosts`
 
