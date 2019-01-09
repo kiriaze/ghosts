@@ -14,7 +14,7 @@ Run this from anywhere:
 
 Preferred method would be to:
 
-1. Download it and place it with your other scripts, e.g. /Users/{username}/Documents/Scripts/ghosts.sh or `cd /Users/$(whoami)/Scripts/ghosts.sh` and run `curl -O https://raw.githubusercontent.com/kiriaze/ghost/master/ghosts.sh` to save it there.
+1. Download it and place it with your other scripts, e.g. /Users/{username}/Scripts/ghosts.sh or `cd /Users/$(whoami)/Scripts/ghosts.sh` and run `curl -O https://raw.githubusercontent.com/kiriaze/ghost/master/ghosts.sh` to save it there.
 2. Make it executable `chmod u+x ghosts.sh`
 3. Create an alias: `nano .bash_profile`
 4. Add `alias ghosts="/Users/$(whoami)/Scripts/ghosts.sh"`
